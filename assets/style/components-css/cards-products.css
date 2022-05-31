@@ -1,0 +1,87 @@
+/****************ALLIANCE PRODUCTS CARDS****************/
+
+/********responsive design mobile*******************/
+
+
+.media-content {
+  overflow-x: clip;
+}
+
+.subtitle--style{
+  /* font-family: 'Archivo'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
+  color: #059E97;
+}
+
+.title--style{
+  font-style: normal;
+  font-weight: 600;
+  /* font-size: 0.75rem; */
+  /* line-height: 18px; */
+  color: #059E97;
+}
+
+.card-content--position{
+  position: relative;  
+}
+
+.card-line{
+  width: 92px;
+  height: 0px;
+  margin: 0.5em;
+  border: 0.5px solid #059E97;
+  position: relative;
+  top: 0;
+  left: -32px;
+}
+
+.content__text{
+  font-style: normal;
+  line-height: 18px;
+  color: #059E97;
+  margin-bottom: 0.5em !important;
+}
+.content__text--strikethrough{
+  text-decoration: line-through;
+  opacity: 75%;
+}
+
+.button-card{
+  font-weight: 600;
+}
+
+.button-card--outlined{
+  color:#2CAB69; 
+  border-color: #2CAB69;
+  
+}
+
+.button-card--outlined:hover{
+  color:white;
+  background:#059E97;
+  transition: background 0.5s ease;
+}
+
+
+.button-card--solid{
+  color: white;
+  background:#2CAB69;
+}
+
+.button-card--solid:hover{
+  color:white;
+  background:#059E97;
+  transition: background 0.5s ease;
+}
+
+.card::after{
+  content: url(../../img/page-points/flag-card.png);
+  position: absolute;
+  display: block;
+  bottom: -13px;
+  right: -94px;
+}
+

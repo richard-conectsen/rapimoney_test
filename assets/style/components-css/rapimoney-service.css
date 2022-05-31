@@ -1,0 +1,59 @@
+/***************RAPIMONEY SERVICES********************/
+
+
+/******responsive design mobile********/
+
+.linea-beneficio{
+  display: none;
+}
+
+.benefit-rapimoney{
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.37rem;
+  padding: 0.5em;
+
+}
+
+.content-image-post{
+  display: none;
+  
+}
+
+/******responsive design tablet********/
+@media screen and (min-width:769px){
+    .benefit-rapimoney{
+      font-size: 30px;
+      line-height: 47px;
+      text-align: left;
+      padding:0;
+    }
+  
+    .beneficio-calculadora{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      align-items: center;
+      flex: auto;
+      width: 100%;
+    }
+  
+    .beneficio-calculadora__item{
+      width:40%;
+    }
+    
+}
+
+
+/******responsive design desktop*******/
+@media screen and (min-width:1024px){
+  .linea-beneficio{
+    display: block;
+    width: 11.25rem;
+    height: 2px;
+    opacity: 30%;
+  }
+}

@@ -1,0 +1,69 @@
+/******responsive design mobile********/
+
+.content-select{
+  width: 70%;
+  margin: auto;
+}
+
+
+
+.content-amount{
+  width: 90%;
+  height: 50px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.7);
+  padding-left: 14%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.content-amount-points{
+  border-radius: 0px 0px 15px 15px;
+}
+
+.content-win{
+  width: 90%;
+  height: 45px;
+  background: #10A38A;
+  margin: auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/******responsive design tablet********/
+@media screen and (min-width:769px){
+
+  /* .beneficio-calculadora__item {
+    width: 50%;
+  } */
+}
+
+
+/******responsive design desktop*******/
+@media screen and (min-width:1024px){
+
+  .content-rapipuntos{
+    padding-top:1em;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .content-amount{
+    width:100%;
+  }
+
+
+  .content-amount-points{
+    border-radius: 0px 0px 15px 0px;
+    padding-left: 10%;
+  }
+
+  .content-win{
+    width: 60%;
+    height: 50px;
+    border-radius: 0px 0px 0px 15px;
+
+}
+}

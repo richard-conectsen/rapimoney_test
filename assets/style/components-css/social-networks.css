@@ -1,0 +1,61 @@
+
+/******RAPIMONEY SOCIAL NETWORKS*******/
+
+/**responsive design mobile**/
+
+.content-redes{
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 11;
+}
+
+.content-redes a{
+margin-top: 5px;
+}
+
+.redes{
+  width: 2.7em;
+  height: 2.7em;
+}
+
+.redes:hover, .redes:focus {
+  box-shadow: 0 0 60px rgba(255,255,255,.99);
+  transform: translateY(-5px);
+}
+
+
+/**responsive design tablet**/
+@media screen and (min-width:769px){
+
+
+  .content-redes{
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 11;
+  }
+  
+  .content-redes a{
+  margin-top: 4px;
+  }
+  
+  .redes{
+    width: 4em;
+    height: 4em;
+  } 
+}
+
+
+/**responsive design desktop**/
+@media screen and (min-width:1023px){
+}
+
+@media screen and (min-width:1366px){
+}

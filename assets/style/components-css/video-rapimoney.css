@@ -1,0 +1,49 @@
+/******VIDEO OF THE COMPANY RAPIMONEY ******/ 
+
+/**responsive design mobile**/
+
+.content-image-video{
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+.video-modal{
+  width: 90%;
+  height: 19em;
+  position: fixed;
+  top: 27%;
+  left: 5%;
+}
+
+
+/**responsive design tablet**/
+
+@media screen and (min-width:769px){
+
+   .content-image-video{
+    padding-top: 0;
+  }
+
+  .video-modal{
+    width: 80%;
+    /* height: 30em; */
+    height: 70%;
+    position: fixed;
+    top: 15%;
+    left: 10%;
+  }
+}
+
+/**responsive design desktop**/
+@media screen and (min-width:1023px){
+  
+
+
+  .content-image-video{
+    padding-bottom: 0em;
+  }
+
+}
+
+@media screen and (min-width:1366px){
+  
+}

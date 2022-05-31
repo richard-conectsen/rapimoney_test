@@ -1,0 +1,42 @@
+/************************IMAGES OF BUILDINGS*****************/
+
+/******responsive design mobile********/
+
+.fondo-edificio{
+  position: absolute;
+  z-index: 1;
+  /* bottom: -36px; */
+  bottom: -1.90em;
+  left: 0px;
+}
+
+
+.content-edificio{
+  width: 100%;
+}
+
+.edificio{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/******responsive design tablet********/
+@media screen and (min-width:769px){
+
+  .fondo-edificio{
+    display: none;
+  }
+}
+
+
+/******responsive design desktop*******/
+@media screen and (min-width:1024px){
+  .fondo-edificio{
+    position: absolute;
+    z-index: 1;
+    bottom: -109px;
+    left: 0px;
+  }
+}

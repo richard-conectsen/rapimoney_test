@@ -1,0 +1,113 @@
+/**************VALUES RAPIMONEY***********/
+
+
+/*****mission and vision***/
+.mision-vision-values{
+  background:#059E97;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+}
+
+.content-mision-vision{
+  padding: 2rem;
+  margin:auto;
+}
+
+/* .mv-tablet-desktop{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.item-mv{
+  margin-top: 1rem;
+  width: 100%;
+  height: 130px;
+  text-align:center;
+}
+
+.item-mv h3{
+
+  background:#2CAB69;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+} */
+
+.item-mision-vision{
+  min-width: 310px;
+
+}
+
+.item-mision-vision img{
+  width:100%;
+  height: 100%;
+}
+
+/*******values*****/
+
+.item-values{
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.item-values h3{
+  background:#2CAB69;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+/*******slider values*****/
+.content-slides-values{
+  margin-top: 3rem;
+  
+}
+
+.slider-values{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider-values ul {
+  display: flex;
+  width: 400%;
+
+  animation: cambio 26s infinite;
+
+  animation-direction:normal;
+
+  animation-timing-function:ease;
+}
+
+.slider-values li{
+  width: 100%;
+}
+
+.slider-values img{
+  width: 100%;
+  min-height: 130px;
+}
+
+/*0%-15%: 15% -> 15%*30s=4.5s estara la primera animacion */
+@keyframes cambio {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+
+  27% {margin-left: -100%;}
+  47% {margin-left: -100%;}
+
+  54% {margin-left: -200%;}
+  74% {margin-left: -200%;}
+
+  80% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+
+
+}
+
+

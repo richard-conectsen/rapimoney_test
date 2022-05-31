@@ -1,0 +1,145 @@
+/**************************NIKE SERVICES IMAGES************/
+
+/******responsive design mobile********/
+.content-image-post-crediticia{
+  display: none;
+}
+
+.content-image-post-garantia{
+  display: none;
+}
+
+.content-image-post-retiro{
+  display: none;
+}
+
+.content-image-post-pagos{
+  display: none;
+}
+
+.content-image-post-puntos{
+  display: none;
+}
+
+/******responsive design tablet********/
+
+@media screen and (min-width:769px){
+}
+
+/******responsive design desktop*******/
+@media screen and (min-width:1024px){
+   
+  /* .content-beneficio-post{
+    background:red;
+  } */
+
+  .image-post{
+    width: 100%;
+    height:100%;
+  }
+  
+  .content-post-img{
+  position:relative;
+  }
+  
+  .content-image-post-crediticia{
+    display: block;
+    width: 22.93em;
+    height: 25.5em;
+    position: relative;
+    top: -2em;
+    left: 11em;
+  }
+
+  .content-image-post-garantia{
+    display: block;
+    width: 22.93em;
+    height: 22.5em;
+    position: relative;
+    top: -2em;
+    left: 13em;
+  }
+
+  .content-image-post-retiro{
+    display: block;
+    width: 29.5em;
+    height: 18.56em;
+    position: relative;
+    top: 1em;
+    left: 2em;
+  }
+
+  .content-image-post-pagos{
+    display: block;
+    width: 18.75em;
+    height: 29.68em;
+    position: relative;
+    top: 2em;
+    left: 12em;
+  }
+
+  .content-image-post-puntos{
+    display: block;
+    width: 24.25em;
+    height: 18.56em;
+    position: relative;
+    top: -9em;
+    left: 9em;
+  }
+
+}
+
+@media screen and (min-width:1366px){
+   
+  /* .content-beneficio-post{
+    background:red;
+  } */
+  
+  .content-post-img{
+  position:relative;
+  }
+  
+  .content-image-post-crediticia{
+    display: block;
+    width: 31.47em;
+    height: 28.25em;
+    position: relative;
+    top: -3em;
+    left: 17em;
+  }  
+  
+  .content-image-post-garantia{
+    display: block;
+    width: 31.8em;
+    height: 27.5em;
+    position: relative;
+    top: -8em;
+    left: 21em;
+  }
+  .content-image-post-retiro{
+    display: block;
+    width: 48.5em;
+    height: 26.62em;
+    position: relative;
+    top: 1em;
+    left: 2em;
+  }
+
+  .content-image-post-pagos{
+    display: block;
+    width: 18.87em;
+    height: 30.95em;
+    position: relative;
+    top: 2em;
+    left: 24em;
+  }
+
+  .content-image-post-puntos{
+    display: block;
+    width: 24.25em;
+    height: 18.56em;
+    position: relative;
+    top: -6.5em;
+    left: 26.5em;
+  }
+}

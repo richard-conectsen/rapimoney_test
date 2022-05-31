@@ -1,0 +1,109 @@
+/**CAROUSEL DE OPERACIONES*/
+.funciona-desktop{
+  display: none;
+}
+
+.carousel{
+  width: 100%;
+  position: relative;
+  /* background: powderblue; */
+}
+.carousel__contenedor{
+  position: relative;
+  width:40% ;
+  height: 95%;
+  margin: auto;
+  z-index: 11;
+  min-width: 170px;
+  /* background: palevioletred; */
+}
+
+
+.carousel__anterior,.carousel__siguiente{
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  top: 33%;
+  cursor:pointer;
+  line-height: 40px;
+  text-align: center;
+  background: none;
+  color:white;
+  opacity: 20%;
+}
+
+.carousel__anterior:hover,.carousel__siguiente:hover{
+opacity: 100%;
+}
+
+.carousel__anterior{
+  left:-60px;
+}
+
+.carousel__siguiente{
+  right: -60px;
+}
+
+.carousel__lista{
+overflow: hidden;
+
+}
+
+.carousel__elemento{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  /* background: red; */
+  min-height:190px;
+  width:100%;
+
+
+}
+
+.carousel__image{
+  /* display: block;
+  height:190px; */
+  width:100%;
+  height: 100%;
+}
+
+.carousel__indicadores{
+  margin-top: 20px;
+}
+
+.carousel__indicadores .glider-dot{
+display: block;
+background: white;
+opacity: 20%;
+}
+
+.carousel__indicadores .glider-dot:hover{
+  opacity: 50%;
+}
+
+.carousel__indicadores .glider-dot.active{
+    opacity: 100%;
+}
+  
+.baner{
+  width: 100%;
+  height: 27%;
+  background: white;
+  position: absolute;
+  top:61%;
+  /* top: -webkit-calc(60%-10px);
+  top: -moz-calc(60%-10px); */
+  opacity: 0.8;
+  z-index: 1;
+opacity: 80%;
+}
+
+.banner--puntos{
+  top:65%;
+
+}
+

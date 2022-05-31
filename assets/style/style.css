@@ -1,0 +1,113 @@
+body{
+  background: #2CAB69;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2em;
+  font-style: normal;
+  color: white;
+
+/* font-family: 'Montserrat'; */
+}
+
+.seccion-central{
+  position: relative;
+}
+
+.article-central{
+  position: relative;
+  z-index: 11;
+  margin-top: -1rem;
+}
+
+
+/******Rapimoney section as a company******/
+
+.background-image{
+display: none;
+}
+
+@media screen and (min-width:1023px){
+  
+  
+  .fondo{
+    position: relative;
+    /* background: url(http://localhost/rapimoney_5S/assets/img/home/rapimoney-background-footer.png) no-repeat center center;
+    background-size: cover; */
+    /* background: url(https://rapimoney.pe/assets/img/home/rapimoney-background-footer.png) no-repeat center center;
+    background-size: cover; */
+    background: url(../img/home/rapimoney-background-footer.png) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .background-image{
+    display: block;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+
+  }
+
+}
+
+/******Rapimoney Benefits section******/
+.benefit-background{
+  margin-top: 0.75rem;
+  margin-bottom: 0.75em;
+  padding-bottom: 0.75em;
+
+}
+
+@media screen and (min-width:1023px){
+  .benefit-background{
+  background: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  }
+}
+
+/******Customer Testimonial Section******/
+
+@media screen and (min-width:1023px){
+
+  .testimonies-background{
+    background: white;
+    padding-top: 2em;
+    padding-bottom: 0.1em;
+    margin-top: 0;
+  }
+}
+
+/******Investment section******/
+@media screen and (min-width:1023px){
+  .investor-background{
+    /* background: url(https://rapimoney.pe/assets/img/home/Investor-background.png) no-repeat center center; */
+    /* background: url(http://localhost/rapimoney_5S/assets/img/home/Investor-background.png) no-repeat center center; */
+    background: url(../img/home/Investor-background.png) no-repeat center center;
+    background-size: cover;
+    padding-top: 3em;
+    
+  }
+}
+
+@media screen and (min-width:1366px){
+  .investor-background{
+    padding-top: 1.5em;
+
+}
+}
+
+/******Work section with us*****/
+@media screen and (min-width:1023px){
+  .work-background{
+    background: url(../img/home/Working-background.png) no-repeat center center;
+    background-size: cover;
+    padding-top: 0.8em;
+    
+  }
+}

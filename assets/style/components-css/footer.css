@@ -1,0 +1,62 @@
+/***********FOOTER**********/
+.my-footer{
+  background: #2CAB69;
+  margin-bottom: 0;
+  padding: 2rem 0rem 1rem 0rem;
+  text-align: center;
+}
+
+/**rapimoney information*/
+.item-footer{
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+.item-footer h3{
+
+  background:#059E97;
+  padding: 0.2em;
+  font-weight: bold;
+  color: white;
+}
+
+.info-contactos a{
+color: white;
+}
+
+
+/**logo rapimoney on footer */
+.content-pie-pagina{
+/* background: red; */
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+
+}
+
+.item-pie{
+  /* background: blue; */
+  width: 83%;
+  height: 49px;
+}
+
+.item-pie img{
+  width: 100%;
+  height: 100%;
+  
+}
+
+/**copyright */
+
+.derechos-reservados{
+  margin-top: 2em;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 6px;
+  text-align: center;
+
+
+}

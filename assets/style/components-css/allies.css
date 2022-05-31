@@ -1,0 +1,100 @@
+/***************RAPIMONEY ALLIES********************/
+
+/**********responsive design mobile**********/
+.content-alianzas{
+  width: 100%;
+  height: 4.5em;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  background: rgba(5, 158, 151, 1);
+  margin-bottom:1em;
+  
+}
+
+.item-alianza{
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-alianza{
+  width: 112.22em;
+  height: 3.75em;
+  background-image: url(../../img/page-points/aliados-rapimoney-mobile.png); 
+  background-size:100%;
+  background-repeat: repeat;
+
+  animation-name: slider-tarjetas;
+  animation-duration:50s;
+  animation-direction: reverse;
+  animation-timing-function:linear;
+  animation-iteration-count:infinite;
+  /* animation: slider-tarjetas 50s infinite linear; */
+
+}
+
+@keyframes slider-tarjetas {
+  to{
+    background-position: 112.22em;
+
+  }
+  
+}
+
+
+
+/**responsive design tablet**/
+@media screen and (min-width:769px){
+
+.content-alianzas--height-tb{
+  height: 5.5em;
+
+}
+
+.slider-alianza-size-tb{
+  width: 142.22em;
+  height:4.75em;
+}
+}
+
+
+/**responsive design desktop**/
+@media screen and (min-width:1024px){
+  .content-alianzas{
+    width: 100%;
+    height: 4.5em;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    background: rgba(5, 158, 151, 1);
+    margin-bottom:1em;
+    margin-top:7em;
+    position: relative;
+
+    
+  }
+
+
+.item-alianza{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .slider-alianza{
+    width: 725px;
+    height: 83px;
+    background-image: url(../../img/page-points/aliados-desktop.png); 
+    background-size:100%;
+    /* background-repeat: no-repeat; */
+    position: absolute;
+    top: -18px;
+   animation:none;
+  
+  }
+}

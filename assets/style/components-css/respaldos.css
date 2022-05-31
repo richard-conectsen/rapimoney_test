@@ -1,0 +1,129 @@
+
+/*******RESPALDOS DE SEGURIDAD******/
+.linea-subtitle-respaldos{
+  display: none;
+}
+
+.content-seguridad--logo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  margin-top: 1.3rem;
+  margin-bottom: 2em;
+}
+
+.content-seguridad--logo-aliados{
+  justify-content:space-around;
+  background:  rgba(5, 158, 151, 0.6); 
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.item-seguridad-logo--aliados{
+  width: 3.5em;
+  height:3.5em;
+}
+.item-seguridad-logo--canales{
+  width: 19%;
+  height:40px;
+}
+
+
+
+.item-seguridad-logo{
+  width: 100%;
+  height:40px;
+  /* max-height: 52px;   */
+}
+
+.logo-seguridad{
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+/**responsive design tablet**/
+@media screen and (min-width:769px){
+  .container-respaldos{
+    /* text-align: center; */
+    background: none;
+    color: white;
+    position: relative;
+    padding: 0.2em;
+    margin-bottom: 0.3rem;
+    margin-top:3rem;
+}
+
+
+.titulo-respaldos{
+  width: 21rem;
+  margin: auto;
+  background:#2CAB69;
+  position: relative;
+  z-index: 11;
+}
+
+.linea-subtitle-respaldos{
+  display: block;
+  width: 100%;
+  background:white;
+  position: absolute;
+  top: -13.5px;
+  z-index:1; 
+}
+
+.content-seguridad--logo{
+  margin-bottom: 3em;
+}
+
+
+.item-seguridad-logo{
+  width: 100%;
+  height:101px;
+}
+
+.item-seguridad-logo--canales{
+  width: 20%;
+  height:100px;
+}
+
+
+
+}
+
+
+/**responsive design desktop**/
+@media screen and (min-width:1023px){
+
+  .content-seguridad--logo{
+    margin-bottom: 0em;
+  }
+  .container-respaldos--canales{
+    /* text-align: center; */
+    color: #059F97;
+    
+  }
+
+  .titulo-respaldos--canales{
+    background: white;
+  }
+
+  .item-seguridad-logo--canales{
+    width: 14%;
+    height:95px;
+
+  }
+
+  .linea-subtitle-respaldos--canales{
+    background: #059F97;
+  }
+
+  
+}
+
+@media screen and (min-width:1366px){
+}

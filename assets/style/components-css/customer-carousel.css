@@ -1,0 +1,127 @@
+/*********CAROUSEL OF FACEBOOK CUSTOMER TESTIMONIES ********/
+
+/***********************responsive design mobile*******************/
+
+.carousels{
+  width: 100%;
+  position: relative;
+  background: #059E97;
+}
+.carousels__contenedor{
+  position: relative;
+  width:90%;
+  margin: auto;
+  /* z-index: 11; */
+  min-width: 170px;
+  /* background: palevioletred; */
+}
+
+
+.carousels__anterior,.carousels__siguiente{
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  top: 40%;
+  cursor:pointer;
+  line-height: 40px;
+  text-align: center;
+  background: none;
+  color:white;
+  opacity: 40%;
+}
+
+.carousels__anterior:hover,.carousels__siguiente:hover{
+opacity: 100%;
+}
+
+.carousels__anterior{
+  left:-15px;
+}
+
+.carousels__siguiente{
+  right: -15px;
+}
+
+.carousels__face{
+overflow: hidden;
+
+}
+
+.carousels__elemento{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  /* background: red; */
+
+}
+
+.carousels__image{
+display: block;
+ width: 90%;
+margin-top: 1.25em;
+}
+
+.carousels__indicadores{
+  margin-top: 0.1em;
+}
+
+.carousels__indicadores .glider-dot{
+display: block;
+background: white;
+opacity: 20%;
+}
+
+.carousels__indicadores .glider-dot:hover{
+  opacity: 50%;
+}
+
+.carousels__indicadores .glider-dot.active{
+    opacity: 100%;
+}
+  
+/* .baners{
+  width: 100%;
+  height: 27%;
+  background: white;
+  position: absolute;
+  top:60%;
+  opacity: 0.8;
+  z-index: 1;
+opacity: 80%;
+} */
+
+/***********************responsive design tablet*******************/
+
+
+
+/***********************responsive design desktop*******************/
+
+@media screen and (min-width:1024px){
+
+.carousels{
+  margin-top: 2rem;
+  width: 100%;
+  position: relative;
+  background: white;
+}
+
+.carousels__contenedor{
+  position: relative;
+  width:75%;
+  height: 240px;
+  margin: auto;
+  min-width: 170px;
+}
+
+.carousels__indicadores .glider-dot{
+  background: #059F97;
+  }
+
+  .carousels__anterior,.carousels__siguiente{
+    color:#059F97;
+  }
+}

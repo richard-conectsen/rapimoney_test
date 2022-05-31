@@ -1,0 +1,85 @@
+/******TESTIMONIOS DE NUESTROS CLIENTES*******/
+
+/**RESPONSIVE DISGN TABLET */
+@media screen and (min-width:769px){
+
+    /**********TESTIMONIO PERSONALIZADO******/
+
+
+  
+
+
+
+}
+
+
+
+/**RESPONSIVE DISGN DESKTOP */
+@media screen and (min-width:1024px){
+
+  /*********titulo de testimonio********/
+
+  /* .content-titulo-testimonio{
+    background: none;
+    color: white;
+    position: relative;
+    padding: 0.2em;
+    margin-bottom: 0.3rem;
+    margin-top:2rem;
+   }
+  
+   .titulo-testimonio{
+    width: 28rem;
+    margin: auto;
+    background:#2CAB69;
+    position: relative;
+    z-index: 11;
+   }
+  
+   .linea-subtitle-testimonio{
+    display: block;
+    width: 100%;
+    background:white;
+    position: absolute;
+    top: -3px;
+    z-index:1; 
+   } */
+
+  /*********TESTIMONIO FACEBOOK*************/
+  /* .testimonio{
+    margin-top: 2rem;
+  } */
+/* 
+  .carousels{
+    margin-top: 2rem;
+    width: 100%;
+    position: relative;
+    background: #2CAB69;
+  }
+
+  .carousels__contenedor{
+    position: relative;
+    width:75%;
+    height: 240px;
+    margin: auto;
+    min-width: 170px;
+  } */
+
+  /**********TESTIMONIO PERSONALIZADO******/
+  /* .content-slider-testimonio{
+    position: relative;
+    z-index: 11;
+  } */
+
+  /* .baner-testimonios{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 64px;
+    background: #059F97;
+    
+    z-index:1;
+  } */
+  
+
+}

@@ -1,0 +1,125 @@
+/*****RAPIMONEY BUSINESS***/
+
+.rapimoney-imgs{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.rapimoney-imgs__content-invahret{
+  width:100%;
+  height:10.06em;
+}
+
+.rapimoney-imgs__invahret{
+  width: 100%;
+  height:100%;
+}
+
+.rapimoney-imgs__content-presentation{
+  width:100%;
+  height:16.62em;
+}
+
+.rapimoney-imgs__presentation{
+  width: 100%;
+  height:100%;
+}
+
+.rapimoney-imgs__content-loan{
+  width:100%;
+  height:10.06em;
+}
+
+.rapimoney-imgs__loan{
+  width: 100%;
+  height:100%;
+}
+
+
+
+/**responsive design tablet**/
+
+@media screen and (min-width:769px){
+
+  .rapimoney-imgs{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items: center; 
+    background-color:white;
+
+  } 
+
+  .rapimoney-imgs__content-invahret{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:flex-end;
+    align-items: stretch;
+    width:90%;
+    height:100%;
+    background:#42B478;
+  }
+
+  .rapimoney-imgs__content-presentation{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items: stretch;
+    width:110%;
+    height:100%;
+  }
+
+
+  .rapimoney-imgs__content-loan{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:flex-start;
+    align-items: stretch;
+    width:90%;
+    height:100%;
+    background-color:#42B478;
+  }
+
+}
+
+/**responsive design desktop**/
+/* @media screen and (min-width:1024px){
+  .rapimoney-imgs__content-invahret{
+  }
+
+  .rapimoney-imgs__content-presentation{
+  }
+
+  .rapimoney-imgs__content-loan{
+    
+  }
+
+} */
+
+@media screen and (min-width:1366px){
+  .rapimoney-imgs__content-invahret{
+  width: 68%;
+  max-height:37.5em;
+
+  }
+
+  .rapimoney-imgs__content-presentation{
+    width: 130%;
+    max-height:37.5em;
+
+  }
+
+  .rapimoney-imgs__content-loan{
+    width: 68%;
+    max-height:37.5em;
+
+    
+  }
+}

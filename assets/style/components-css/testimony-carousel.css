@@ -1,0 +1,103 @@
+/*************CAROUSEL OF CUSTOMER TESTIMONIES*********/
+
+.slider-testimonio{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider-testimonio ul {
+  display: flex;
+  width: 400%;
+
+  animation: rotar 30s infinite;
+
+  animation-direction:alternate-reverse;
+
+  animation-timing-function: ease-in-out;
+}
+
+.slider-testimonio li{
+  width: 100%;
+}
+
+.slider-testimonio img{
+  width: 100%;
+}
+
+/*0%-26%: 26% -> 20%*30s=6s estara la primera animacion */
+/*0%-26%: 26% -> 7%*30s=2s estara la primera animacion */
+@keyframes rotar {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+
+  27% {margin-left: -100%;}
+  47% {margin-left: -100%;}
+
+  54% {margin-left: -200%;}
+  74% {margin-left: -200%;}
+
+  81% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+
+}
+
+@media screen and (min-width:1024px){
+
+
+  .slider-testimonio{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+
+  
+  .slider-testimonio ul {
+    display: flex;
+    /* position: relative; */
+    width: 200%;
+    z-index:11;
+    padding-left: 3rem;
+    padding-right: 1.5rem; 
+  
+
+    animation: rotar 14s infinite;
+  
+    animation-direction:alternate;
+  
+    animation-timing-function: ease-in-out;
+  }
+  
+  .slider-testimonio li{
+    width: 100%;
+    padding-right: 3rem;
+  }
+
+  .los-testimonios li:nth-child(2){
+    padding-right: 6rem;
+  }
+  .los-testimonios li:nth-child(4){
+    padding-right: 1.5rem;
+  }
+  
+  .slider-testimonio img{
+    width: 100%;
+    height:100%;
+  }
+
+  /*0%-26%: 26% -> 43%*14s=6s estara la primera animacion */
+  /*0%-26%: 26% -> 14%*14s=2s estara la primera animacion */
+  @keyframes rotar {
+    0% {margin-left: 0;}
+    43% {margin-left: 0;}
+  
+    57% {margin-left: -100%;}
+    100% {margin-left: -100%;}
+  
+  }
+
+}
+
+
+

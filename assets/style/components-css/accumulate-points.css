@@ -1,0 +1,71 @@
+/****************ACCUMULATE NIKE POINTS*************/
+
+
+/**********responsive design mobile**********/
+.point{
+  display:block;
+  width:233px;
+  height: 98px;
+}
+
+.accumulate-points__item{
+  width:100%;
+  display:flex;
+}
+
+.accumulate-points__item--left{
+  justify-content:flex-start;
+}
+
+.accumulate-points__item--rigth{
+  justify-content:flex-end;
+}
+
+
+.accumulate-points{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background:white;
+  margin-top: -1em;
+  padding: 1.5em 0.75em;
+}
+/*------------------------------------*/
+.legend{
+  color: #059E97;
+  font-size:0.60rem;
+  line-height:11px;
+}
+
+.legend-points__item{
+  width:90%;
+}
+
+.legend-points{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+  background: white;
+}
+
+
+
+/**responsive design tablet**/
+@media screen and (min-width:769px){
+  .accumulate-points{
+    flex-direction: row;
+   padding: 2.0em 1.5em; 
+  }
+
+  .accumulate-points__item{
+    width:100%;
+    display:flex;
+    justify-content: center;
+
+  }
+}

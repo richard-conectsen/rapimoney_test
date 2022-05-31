@@ -1,0 +1,153 @@
+/**RESPONSIVE DISGN TABLET */
+
+@media screen and (min-width:769px){
+    
+    /*****Noso****/
+    .media{ /**QR*/
+        background-color: #2CAB69;
+        float: left;
+        align-content: center;
+        width: 50%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        
+    }
+    .container-card{
+        background-color: #2CAB69;
+        float: right;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        text-align: center;
+        font-size: 100%;
+        vertical-align: top;
+        width: 50%; 
+        margin-top: -5%;
+    }
+    .qr-rapimoney img{
+
+        max-width: 125%;
+        height: auto;
+        align-content: center;
+        margin-left: -15%;
+    }
+    .content-btn-solicitar{
+        margin-top: 15%;
+        visibility: visible;
+        align-content: center;
+        margin-left: 30%;
+    }
+    .recomiendanos{
+        display: inline-block;
+        background-color: #2CAB69;
+        width: 100%;
+        text-align: center;
+    }
+    .recomiendanos br{
+        display: none;
+    }
+    .card-content{
+        visibility: hidden;
+    }
+    .nuestra-meta::after{
+        content: '\A +50 0000';
+        white-space: pre-line;
+        font-style: normal;
+        font-weight: bold;
+        text-align: center;
+        font-size: xx-large;
+        background-color: #2CAB69;
+        margin-bottom: 10%;
+        display: inline;
+        vertical-align: text-top;
+    }
+    .content-retira::after{
+        content: 'soles en operaciones y \A +125 clientes satisfechos';
+        white-space: pre-line;
+        text-align: center;
+        font-size: 1.5rem;
+        background-color: #2CAB69;
+        margin-bottom: 10%;
+        display: inline;
+        vertical-align: text-top;
+    }
+    .retira-dinero{
+        font-size: x-large;
+        font-weight: bold;
+        background-color: #2CAB69;
+    }
+    .nuestra-meta{
+        font-style: oblique;
+        font-size: small;
+    }
+   
+    
+   
+
+     /*****FOOTER****/
+    .my-footer{
+        background-color: #2CAB69;
+        height: auto;
+    }
+
+    .item-footer{
+        float: left;
+        width: 33.33%;
+        font-size: large;
+        margin-bottom: 1%;
+    }
+    .content-footer{
+        content: "";
+        display: table;
+        width: 100%;
+        font-size: xx-large;
+        background-color:#2CAB69;
+    }
+    .item-footer h3{
+        background-color: white;
+        color: #2CAB69;
+        width: auto;
+        font-size: xx-large;
+        margin-bottom: 1%;
+        margin-top: 5%;
+    }
+    /**LOGO FOOTER**/
+    .my-footer img{
+        background-color: #2CAB69;
+        height: 150px;
+        margin-bottom: 5%;
+    }
+    .derechos-reservados{
+        font-size: large;
+        padding-top: 5%;
+        margin-top: 2rem;
+    }
+    
+    
+  }
+  
+  
+  
+  /**RESPONSIVE DISGN DESKTOP */
+  @media screen and (min-width:1024px){
+    .container-card{
+        background-color: #2CAB69;
+        float: right;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        text-align: center;
+        font-size: 100%;
+        vertical-align: bottom;
+        width: 50%; 
+        margin-top: 1%;
+    }
+    .content-btn-solicitar{
+        margin-top: 10%;
+        visibility: visible;
+        align-content: center;
+        margin-left: 40%;
+    }
+  }

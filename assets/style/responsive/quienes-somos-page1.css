@@ -1,0 +1,170 @@
+/**RESPONSIVE DISGN TABLET */
+@media screen and (max-width:769px){
+    .partners{
+        float: left;
+        padding: 10px;
+    }
+    .left{
+        width: 25%;
+    }
+
+}
+@media screen and (min-width:769px){
+    
+    /*****Nosotros datos y la imagen de presentación****/
+    .im-nosotros{
+        background-color: #2CAB69;
+        
+    }
+    .im-nosotros img{
+        width: 100%;
+    }
+    .content-nosotros p{
+        background-color: #2CAB69;
+        font-size: x-large;
+        margin-top: 5%;
+    }
+/*     
+    .team-rapi p{
+        font-size: xx-large;
+        line-height: 47px;
+        display: inline;
+    
+    } */
+    
+    /* .team-rapi{
+        font-size: xx-large;
+        line-height: 47px;
+        background-color: #2CAB69;
+    } */
+
+  
+    /*****Partenes img****/
+    
+    .partners{
+        float: left;
+        padding: 10px;
+    }
+    .left{
+        width: 25%;
+        height: 100%;
+    }
+    .left img{
+        width: 85%;
+        float: right;
+        margin-top: 8%;
+        margin-left: 35%;
+        background-color: #2CAB69  ;
+        
+    }
+    .right{
+        width: 75%;  
+    }
+    .team-partners{
+        display: flex;
+        width: 100%;
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+     /*****FOOTER****/
+    .my-footer{
+        background-color: #2CAB69;
+        height: auto;
+    }
+
+    .item-footer{
+        float: left;
+        width: 33.33%;
+        font-size: large;
+        margin-bottom: 1%;
+    }
+    .content-footer{
+        content: "";
+        display: table;
+        width: 100%;
+        font-size: xx-large;
+        background-color:#2CAB69;
+    }
+    .item-footer h3{
+        background-color: white;
+        color: #2CAB69;
+        width: auto;
+        font-size: xx-large;
+        margin-bottom: 1%;
+        margin-top: 5%;
+    }
+    /**LOGO FOOTER**/
+    .my-footer img{
+        background-color: #2CAB69;
+        height: 150px;
+        margin-bottom: 5%;
+    }
+    .derechos-reservados{
+        font-size: large;
+        padding-top: 5%;
+    }
+    
+    
+  }
+  
+  
+  
+  /**RESPONSIVE DISGN DESKTOP */
+  @media screen and (min-width:1024px){
+
+    /***********team rapi*********/
+    .team-rapi{
+        background:none;
+        position: relative;
+    }
+
+    .my-team{
+        width: 16rem;
+        margin: auto;
+        background: #2CAB69;
+        position: relative;
+        z-index: 11;
+    }
+
+    .linea-subtitle{
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: -4px;
+        z-index:1;
+
+    }
+
+
+    /*****Partenes img****/
+    
+    .partners{
+        float: left;
+        padding: 10px;
+    }
+    .left{
+        width: 25%;
+        background-color: #2CAB69;
+    }
+    .left img{
+        width: 85%;
+        float: right;
+        margin-top: 5%;
+        margin-left: 35%;
+        background-color: #2CAB69  ;
+        
+    }
+    .right{
+        width: 75%;
+           
+    }
+    .team-partners{
+        display: flex;
+        width: 100%;
+        content: "";
+        display: table;
+        clear: both;
+    }
+  }

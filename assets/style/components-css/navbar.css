@@ -1,0 +1,110 @@
+
+/************MY NAVBAR**********/
+
+/* style="background-color:#059E97;" */
+
+.mi-navbar{
+  /* background-image:url(http://localhost/rapimoney/assets/img/navbar/navbar.png);
+  background-repeat: no-repeat;
+  background-size: cover; */ 
+  background-color: #059E97;
+  height: 4.3rem;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.80);
+  /* padding-top: 0.5rem; */
+  
+}
+
+.navbar-item,.navbar-item--style{
+  color: white;
+}
+
+
+.navbar-item img {
+  width:8rem;
+  height: 2.9rem;
+  max-width: 9.3rem;
+  max-height: 3.4rem;
+}
+
+
+a.navbar-item__button{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+} 
+
+.btn-hover:hover{
+  box-shadow: 0 4px 16px white;
+  transition: box-shadow 0.2s ease;
+}
+
+
+.navbar-item--substyle{
+  font-weight: bold;
+  color: white;
+}
+
+
+
+a.navbar-item:visited{
+  background: #059E97;
+  color: white;
+}
+
+a.navbar-item:hover{
+  background:#2CAB69;
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.2s ease;
+
+}
+
+
+/**MENU HAMBURGUESA */
+/* .icon-burger{
+  color:white;
+} */
+
+.navbar-burger span {
+  background-color: white;
+  display: block;
+  height: 3px;
+  left: calc(50% - 8px);
+  position: absolute;
+  transform-origin: center;
+  transition-duration: 86ms;
+  transition-property: background-color,opacity,transform;
+  transition-timing-function: ease-out;
+  width: 25px;
+}
+
+.navbar-sombra{
+  padding-top: 7rem;
+  text-align: center;
+  background-color: #059E97;
+  border: 1px solid white;
+  height: 100vh;
+}
+
+
+
+/* .navbar-item.navbar-item__button:hover{
+  background: #059E97;
+  
+}
+
+.navbar-item__button--style:hover{
+  font-weight: bold;
+  color: white;
+} */
+
+
+
+
+
+
+
+
+
+
+  

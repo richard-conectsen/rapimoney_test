@@ -1,0 +1,85 @@
+/**RESPONSIVE DISGN TABLET */
+
+@media screen and (min-width:769px){
+    
+
+    /*****FOOTER****/
+
+    .my-footer{
+        background: #2CAB69;
+        margin-bottom: 0;
+        padding: 1rem 0rem 1rem 0rem;
+        text-align: center;
+    }
+
+    /* .my-footer::before{
+        content: 'NUESTROS RESPALDOS';
+        text-align: center;
+        font-size: medium;
+        background-color: #059E97;
+        margin-bottom: 10%;
+        margin-top: 2%;
+        display: inline;
+        vertical-align: text-top;
+    } */
+
+    .my-footer{
+        background-color: #059E97;
+        height: auto;
+    }
+
+    .item-footer{
+        float: left;
+        width: 33.33%;
+        font-size: large;
+        margin-bottom: 1%;
+        
+    }
+    .content-footer{
+        content: "";
+        display: table;
+        width: 100%;
+        font-size: xx-large;
+        background-color:#059E97;
+    }
+    .item-footer h3{
+        background-color: white;
+        color: #059E97;
+        width: auto;
+        font-size: xx-large;
+        margin-bottom: 1%;
+        margin-top: 5%;
+    }
+
+    /* .info-contactos{
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content:flex-start;
+        align-items: center; 
+    } */
+
+
+
+    /**LOGO FOOTER**/
+    .my-footer img{
+        background-color: #059E97;
+        height: 150px;
+        margin-bottom: 5%;
+    }
+    .derechos-reservados{
+        font-size: large;
+        padding-top: 5%;
+    }
+    
+    
+    
+  }
+  
+  
+  
+  /**RESPONSIVE DISGN DESKTOP */
+  @media screen and (min-width:1024px){
+    
+  }

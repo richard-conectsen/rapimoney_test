@@ -1,0 +1,134 @@
+/******BENEFIT OF THE COMPANY NIKE ******/ 
+
+/**responsive design mobile**/
+
+.slider-programas{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider-programas ul {
+  display: flex;
+  width: 600%;
+
+  animation: cambio 30s infinite;
+
+  animation-direction: normal;
+
+  animation-timing-function: linear;
+}
+
+.slider-programas li{
+  width: 100%;
+}
+
+.slider-programas img{
+  width: 100%;
+}
+
+/*0%-15%: 15% -> 15%*30s=4.5s estara la primera animacion */
+@keyframes cambio {
+  0% {margin-left: 0;}
+  15% {margin-left: 0;}
+
+  17% {margin-left: -100%;}
+  32% {margin-left: -100%;}
+
+  34% {margin-left: -200%;}
+  49% {margin-left: -200%;}
+
+  51% {margin-left: -300%;}
+  66% {margin-left: -300%;}
+
+  68% {margin-left: -400%;}
+  83% {margin-left: -400%;}
+
+  85% {margin-left: -500%;}
+  100% {margin-left: -500%;}
+}
+
+
+
+/**responsive design tablet**/
+@media screen and (min-width:769px){
+
+  .slider-programas{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+    .slider-programas ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+  
+      width: 100%;
+  
+      animation: none;
+      padding-bottom: 1em;
+      
+    } 
+  
+    .slider-programas li{
+      margin-top: 1em;
+      width: 48%;
+    }
+
+    .card-image{
+      border-radius: 8px;
+      box-shadow: 3px 5px 5px rgba(3,32,51,.8);
+      cursor: pointer;
+      /* opacity:0.3; */
+      background: #059E97;
+      /* border: none; */
+      transition:box-shadow .3s ease-in;
+      
+    }
+
+    .card-image:hover{
+      box-shadow: 8px 8px 5px rgba(246, 249, 250, 0.8);
+    }
+
+}
+
+
+/**responsive design desktop**/
+
+@media screen and (min-width:1023px){
+  .slider-programas{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider-programas li{
+    margin-top: 1em;
+    width: 32%;
+  }
+
+
+  .card-image{
+    border-radius: 10px;
+    box-shadow: 4px 5px 5px rgba(3,32,51.8);
+    transition:box-shadow .3s ease-in;
+
+  }
+
+  .card-image:hover{
+    box-shadow: 10px 10px 5px 2px #2CAB69;
+  }
+  
+}
+
+@media screen and (min-width:1366px){
+  .card-image{
+    border-radius: 16px;
+    box-shadow: 5px 7px 8px rgba(3,32,51.8);
+  }
+}

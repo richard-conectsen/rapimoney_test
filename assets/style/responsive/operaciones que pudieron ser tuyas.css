@@ -1,0 +1,193 @@
+/**RESPONSIVE DISGN TABLET */
+@media screen and (max-width:769px){
+    .animation{
+        display: none;
+        /* visibility: hidden; 
+        height: 0px; */
+    }
+    .animation2{
+        display: none;
+        /* visibility: hidden;
+        height: 0px; */
+    }
+}
+
+@media screen and (min-width:769px){
+
+    .animation img{
+        visibility: visible;
+        z-index: 11;
+        max-width: 30%;
+        position: relative;
+        animation: mymove 5s ease infinite;
+    }
+    @keyframes mymove {
+        from{left: 0px;}
+        to{left: 250px;}
+    }
+  
+    .animation2 img{
+        visibility: visible;
+        z-index: 11;
+        max-width: 30%;
+        left: 40%;
+        position: relative;
+        margin-top: -5%;
+    }
+    
+    /*****OPERATIONS AND RAPIMONEY TRANSFER****/
+
+
+    .content-img-monto-operaciones{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        z-index: 11;
+    
+    }
+
+    .container-transferenciasi{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: medium;
+        width: 100%;
+        background-color: #059E97;
+        margin-bottom: 0.5%;
+        padding-left: 2rem;
+    }
+
+    .trans-inter{
+        padding-left: 2rem;
+    }
+
+    .content-titulo{
+        visibility:hidden;
+    }
+
+    .monto-operaciones{
+        
+        font-size: 1.5rem;
+        padding-bottom: 0.2em;
+      }
+}
+  
+  
+  
+  /**RESPONSIVE DISGN DESKTOP */
+  @media screen and (min-width:1024px){
+    .animation img{
+        visibility: visible;
+        z-index: 11;
+        max-width: 30%;
+        position: relative;
+        animation: mymove 5s ease infinite;
+    }
+    @keyframes mymove {
+        from{left: 0px;}
+        to{left: 350px;}
+    }
+  
+    .animation2 img{
+        visibility: visible;
+        z-index: 11;
+        max-width: 30%;
+        left: 40%;
+        position: relative;
+        margin-top: -5%;
+    }
+
+    /**************operaciones rapimoney*********/
+    .content-titulo-operaciones{
+        position: relative;
+        background: #059E97;
+        padding: 0.2em;
+    }
+
+    .title-operaciones__msg{
+        display:inline;
+      }
+
+    .titulo-operaciones{
+        width: 30rem;
+        margin: auto;
+        color: white;
+        background: #059E97;
+        position: relative;
+        z-index: 11;
+    }
+      
+    .linea-subtitle-operaciones{
+        display: block;
+        width: 100%;
+        background:white;
+        position: absolute;
+        top: -16px;
+        z-index:1; 
+    }
+
+    .content-img-operaciones{
+        width: 27.75em;
+        height: 29.60em;
+        margin:auto;
+        }
+
+
+    /***************tranferencias rapimoney*********/
+
+    .content-trans--logo{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        padding:1rem;
+        background: white;
+      }
+      
+      .item-trans-logo{
+        width: 80%;
+        height: 46px;
+        /* background:yellow; */
+      }
+
+      .transferencias-mobil{
+        display: none;
+      }
+
+      .transferencias-desktop{
+        display: block;
+        position: relative;
+        z-index: 11;
+      }
+
+      .img-tranferencia-desktop{
+        width: 100%;
+        height: 100%;
+      }
+
+      .content-transferencia-desktop{
+        width: 100%;
+        height: 4.37rem;
+      }
+
+      .monto-operaciones{
+        font-size: 1.7rem;
+        padding-bottom: 0.4em;
+      }
+
+  }
+
+  @media screen and (min-width:1366px){
+    .content-img-operaciones{
+        width: 30.75em;
+        height: 32.6em;
+        margin: auto;
+    }
+  }
+  

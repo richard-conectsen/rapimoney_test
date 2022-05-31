@@ -1,0 +1,77 @@
+/************MY NAVBAR**********/
+@media screen and (min-width:769px){
+  
+}
+
+
+
+@media screen and (min-width:1024px){
+  .mi-navbar{
+    background: #059E97;
+    /* height: 5rem; */
+    /* padding-top: 0.5rem; */
+    padding-left: 2.5rem;
+    padding-right: 3.5rem;
+  }
+  
+  p.navbar-item--substyle{
+      color:   #2CAB69;
+      font-size: 1rem;
+      font-weight: normal;
+      margin-right: 3rem;
+      margin-left:3rem;
+  }
+
+  .navbar-item--style{
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-right: 0em;
+    margin-left:0em;
+  }
+
+  
+  .navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover,.navbar-item.has-dropdown.is-active .navbar-link, .navbar-item.has-dropdown:focus .navbar-link, .navbar-item.has-dropdown:hover .navbar-link{
+      background:#2CAB69;
+       color: white;
+      /*font-size: 1.4rem;
+      transition: all 0.2s ease; */
+  }
+
+  a.navbar-item:hover{
+    background:#2CAB69;
+    color: white;
+    font-size: 1.4rem;
+    transition: all 0.2s ease;
+  }
+
+  p.navbar-item--substyle:hover{
+    color:   #2CAB69;
+    font-size: 1.3rem;
+    font-weight:bold;
+    transition: all 0.2s ease;
+  }
+
+  .navbar-link:not(.is-arrowless)::after {
+    border-color: white;
+    margin-top: -.375em;
+    right: 1.125em;
+}
+
+  /* .navbar-item--style-inicio{
+    color: white;
+    font-size: 1.5rem;
+    margin-left:3rem;
+  } */
+}
+
+
+@media screen and (min-width:1366px){
+  .navbar-item--style{
+    color: white;
+    font-size: 1.3rem;
+    margin-right: 2.5em;
+    margin-left:1.5em;
+  }
+  
+}

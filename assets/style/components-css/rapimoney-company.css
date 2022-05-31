@@ -1,0 +1,76 @@
+/******ABOUT US AS A RAPIMONEY COMPANY******/ 
+
+/**responsive design mobile**/
+
+.rapimoney-company__image{
+  width:100%;
+  height:100%;
+  
+}
+
+.rapimoney-company{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+ 
+  /* background: red; */
+  min-height:8.18em;  
+
+}
+
+.rapimoney-company__text{
+  padding:2em 1.5em 1em 1.5em;
+}
+
+
+/**responsive design tablet**/
+@media screen and (min-width:769px){
+  .rapimoney-company{
+    margin-top:2em;
+  
+  }
+}
+
+
+/**responsive design desktop**/
+@media screen and (min-width:1023px){
+
+  .rapimoney-company{
+    width: 69%;
+    margin:auto;
+    padding-top: 3.75em;
+    padding-bottom: 2.87em;
+    position: relative;
+    z-index: 11;
+
+  
+  }
+
+
+}
+
+
+@media screen and (min-width:1366px){
+  
+  /* .rapimoney-company{
+    
+    width: 100% ;
+    max-height: 34.12em; 
+  } */
+
+  /*
+  .rapimoney-company__image{
+    max-width: 58.87em;
+    max-height:19.81em;
+    margin: auto; 
+
+  }
+
+  .rapimoney-company__text{
+    padding:2em 15em 2em 15em;  
+
+  } */
+
+}
+

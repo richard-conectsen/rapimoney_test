@@ -1,0 +1,56 @@
+/***************************CUSTOM BUTTON***********************/ 
+
+/*******************responsive design mobile**********/
+
+/**Button for calculating**/
+
+.content-btn-calculate{
+  margin: auto;
+  width: 8.12em;
+  height: 1.87em;
+}
+
+.btn-calculate{
+  display: block;
+  background: #059E97;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.btn-calculate:hover {
+  border:2px solid white;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+/* .btn-calculate:active {
+  background:red
+} */
+
+/**Button to extract**/
+
+
+.content-btn-retirar{
+  margin: auto;
+  width: 130px;
+  height: 30px;
+}
+
+.btn-retirar{
+  display: block;
+  background: #2CAB69;;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.btn-retirar:hover {
+  border:2px solid white;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+/**responsive design tablet**/
+
+
+/**responsive design desktop**/

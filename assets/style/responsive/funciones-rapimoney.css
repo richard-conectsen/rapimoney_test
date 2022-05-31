@@ -1,0 +1,65 @@
+
+/**RESPONSIVE DISGN TABLET */
+
+@media screen and (min-width:769px){
+
+
+  .content-funciones-rapimoney{
+
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background:white;
+  }
+
+  .funciona-desktop{
+    display: block;
+    width: 90%;
+    max-width: 1082px;
+    margin: auto;
+   
+    
+  }
+
+  .content-img-funciona-desktop{
+    width: 100%;
+    max-width: 57.18em;
+    height:24.25em;
+    margin: auto;
+  }
+  .img-funciona-desktop{
+    width: 100%;
+    height: 100%;
+  }
+
+  .slider-funciona-rapimoney{
+    display: none;
+  }
+
+  .img-proceso-rapimoney{
+    display: none;
+  }
+
+}
+
+@media screen and (min-width:1023px){
+  .content-funciones-rapimoney{
+    /* background: url(https://rapimoney.pe/assets/img/home/Working-background.png) no-repeat center center; */
+    /* background: url(http://localhost/rapimoney_5S/assets/img/home/Working-background.png) no-repeat center center; */
+    background: url(../../img/main//background-process-desktop.png) no-repeat center center;
+    background-size: cover;
+    
+  }
+}
+
+
+@media screen and (min-width:1366px){
+  .content-img-funciona-desktop{
+    width: 100%;
+    max-width: 67.12em;
+    height:29.31em;
+    margin: auto;
+  }
+}
+
+
+

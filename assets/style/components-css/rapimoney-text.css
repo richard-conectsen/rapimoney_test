@@ -1,0 +1,54 @@
+/******NIKE CONTENT TEXT******/ 
+
+/**responsive design mobile**/
+
+
+.paragraph__text{
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.37rem;
+  padding: 0.5em;
+}
+
+.paragraph{
+  padding:1em 0.5em 1em 0.5em;
+}
+
+/**responsive design tablet**/
+@media screen and (min-width:769px){
+
+.paragraph__text{
+  
+  line-height: 1.8rem;
+  padding: 1.5em;
+}
+}
+
+
+/**responsive design desktop**/
+@media screen and (min-width:1023px){
+  
+  .paragraph__text{
+  
+    line-height: 2.5rem;
+    padding: 0em 1em 0em 1em;
+  } 
+
+  .paragraph__text--work{
+    color:#059F97;
+
+  }
+
+  .paragraph{
+    padding: 1.5em 10em 2.5em 10em;
+  }
+
+}
+
+@media screen and (min-width:1366px){
+  .paragraph{
+    padding:1em 16em 2.5em 16em;
+  }
+}

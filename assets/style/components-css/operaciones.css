@@ -1,0 +1,147 @@
+/**OPERACIONES*/
+
+.operaciones-rapimoney{
+background:#059E97 ;
+padding-top: 1.25em;
+}
+
+/* .content-titulo{
+  background:white;
+  color:#059E97;
+  padding: 0.5em;
+  visibility:visible;
+  margin-bottom: 2em;
+}
+
+.msg-title{
+  display: block;
+} */
+
+.content-titulo-operaciones{
+  background: white;
+  color: #059E97;
+  padding: 0.5em;
+}
+
+.title-operaciones__msg{
+  display:block;
+}
+
+/* .titulo-operaciones{
+
+} */
+
+.linea-subtitle-operaciones{
+  display: none;
+}
+
+/* .operaciones{
+padding: 1em;
+} */
+
+.img-operaciones{
+  width:100%;
+  height:100%;
+}
+
+.content-img-operaciones{
+width: 19.37em;
+height: 20.50em;
+margin:auto;
+}
+
+
+.content-img-monto-operaciones{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.monto-operaciones{
+  display: block;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+/******responsive design tablet********/
+@media screen and (min-width:769px){}
+
+
+
+
+/******responsive design desktop*******/
+@media screen and (min-width:1023px){
+  .content-operations{
+    position: relative;
+  }
+
+  .content-operations::before {
+    content:'';
+    display:block;
+    width: 28.06em;
+    height:45em;
+    /* background: red; */
+    background-image:url(../../img/main/pseudo-background-operaciones.png);
+    background-size: cover;
+    position:absolute;
+    right: 0px;
+    top: -21px;
+    z-index: 1;
+  } 
+
+}
+
+@media screen and (min-width:1366px){
+
+  .content-operations::before{
+    width: 45em;
+    height:48em;
+  }
+}
+
+/****************TRANFERENCIAS *************/
+
+/* .content-trans{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+} */
+
+.transferencias-mobil{
+  display: block;
+}
+
+.transferencias-desktop{
+  display: none;
+}
+
+.content-trans--logo{
+  width: 100%;
+  height: 1.87em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding:1rem;
+  background: white;
+}
+
+
+.item-trans-logo{
+  width: 50%;
+  height: 0.96em;
+  /* background:yellow; */
+}
+
+.logo-bancos{
+  width: 100%;
+  height: 100%;
+  
+}
